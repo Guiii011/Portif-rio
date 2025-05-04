@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    
+    font-family: "Open Sans";
+}
+
+nav {
+    position: fixed;         /* Fixa o menu na tela */
+    top: 0;                  /* Gruda no topo */
+    left: 0;                 /* Começa da esquerda */
+    width: 100%;             /* Ocupa a largura inteira */
+    background-color: black; /* Cor de fundo */
+    text-align: center;      /* Centraliza os itens */
+    padding: 10px 0;         /* Espaçamento interno */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    z-index: 1000;           /* Fica por cima de tudo */
+    font-family: "Open Sans";
+}
+
+h1 {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 15%;
+    font-size: 50px;
+}
+nav p {
+    display: inline-block;
+    margin-left: 25px;
+
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+ h3 {
+    font-size: 40px;
+
+
+ }
+
+ #principal {
+    margin-top: 100px;
+    margin-left: 19%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    font-size: 19px;
+ }
+ 
+#sobre {
+    margin-top: 10%;
+    margin-left: 19%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    font-size: 20px;
+    
+}
+#projetos {
+    margin-top: 10%;
+    margin-left: 19%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+#informacoes {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10;
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+#idiomas {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+#linguagens {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+#curriculo a {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    font-size: 20px;
+    color: black;
+}
+footer  {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    
+    width: 100%;
+    font-family: "Open" sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
