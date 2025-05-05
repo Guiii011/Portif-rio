@@ -6,15 +6,15 @@
 }
 
 nav {
-    position: fixed;         /* Fixa o menu na tela */
-    top: 0;                  /* Gruda no topo */
-    left: 0;                 /* Começa da esquerda */
-    width: 100%;             /* Ocupa a largura inteira */
-    background-color: black; /* Cor de fundo */
-    text-align: center;      /* Centraliza os itens */
-    padding: 10px 0;         /* Espaçamento interno */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    z-index: 1000;           /* Fica por cima de tudo */
+    position: fixed;        
+    top: 0;                  
+    left: 0;                
+    width: 100%;            
+    background-color: black; 
+    text-align: center;      
+    padding: 10px 0;         
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    z-index: 1000;           
     font-family: "Open Sans";
 }
 
@@ -35,8 +35,6 @@ nav a {
 }
  h3 {
     font-size: 40px;
-
-
  }
 
  #principal {
@@ -104,4 +102,7 @@ footer  {
 a {
     text-decoration: none;
     color: white;
+}
+#currículo {
+    margin-left: 10%;
 }
